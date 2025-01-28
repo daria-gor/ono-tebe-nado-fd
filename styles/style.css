@@ -19,9 +19,8 @@ h3,
 }
 
 .lots__look-more-link,
-.header__links-list-item,
-.header__address_underline,
-.footer__address_underline {
+.underline,
+.card__title {
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 1px;
@@ -66,14 +65,14 @@ h3,
   height: 105px;
 }
 .address {
-  display: block;
-  justify-self: end;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 24px;
 }
 .header__address {
+  display: block;
+  justify-self: end;
   width: 100%;
   max-width: 240px;
 }
@@ -189,10 +188,6 @@ h3,
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 1px;
-  text-underline-position: under;
   text-transform: uppercase;
 }
 
@@ -285,15 +280,8 @@ h3,
 }
 .footer__address {
   display: flex;
-  justify-self: start;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24px;
-}
-.footer__address_column {
-  display: flex;
   flex-direction: column;
+  justify-self: start;
 }
 
 .footer__menu {
